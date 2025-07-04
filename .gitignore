@@ -1,0 +1,11 @@
+# filepath: .gitignore
+# Ambiente Virtual
+venv/
+
+# Arquivos de credenciais (segurança)
+*.json
+.streamlit/secrets.toml
+
+# Arquivos de cache do Python
+__pycache__/
+*.pyc
